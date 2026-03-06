@@ -1,9 +1,8 @@
-[README.md](https://github.com/user-attachments/files/25782626/README.md)
 # Hometown Rafters
 
 **A baseball dynasty mode where fictional teams serve as hyper-specific satires of real American cities.**
 
-Hometown Rafters is a narrative-driven baseball management simulator where fictional teams serve as hyper-specific satires of real American cities. You aren't just managing a spreadsheet and a depth chart; you are managing a hundred years of American history through the lens of a franchise—the immigrant communities that built it, the corrupt money that nearly destroyed it, the stubborn loyalty that kept it alive, and the modern reckoning with what it all meant.
+The player doesn't manage a roster. They manage a hundred years of American history through the lens of a baseball franchise — the immigrant communities that built it, the corrupt money that nearly destroyed it, the stubborn loyalty that kept it alive, and the modern reckoning with what it all meant.
 
 ---
 
