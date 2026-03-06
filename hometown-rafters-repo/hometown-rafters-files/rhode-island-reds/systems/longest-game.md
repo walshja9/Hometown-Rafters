@@ -45,13 +45,20 @@ A meaningless April night game. Cold. Windy. The lights at the Bandbox barely wo
 
 **The Game Itself:**
 
-The player manages through all 33 innings. This is not simulated — it's played, but in a compressed, atmospheric way that emphasizes the grind rather than individual at-bats.
+The player manages through all 33 innings. This is not simulated — it's played, but using a "Fever Dream" compression that makes the player FEEL thirty-three innings without physically playing a hundred outs.
 
-Mechanics that activate during the Longest Game:
+**The Fever Dream Mechanic:**
+
+Innings 1 through 9 play normally — standard baseball, standard management, standard pace. Once extra innings begin, the game enters a Fever Dream state. The UI strips away standard menus. The player no longer plays every out; the game jump-cuts directly into high-leverage situations (runners on second, 2 outs, 16th inning). Between these playable moments, the screen blurs, time accelerates, and the inning counter spins upward. The audio distorts — the crack of the bat sounds hollow, the wind howls louder, and the crowd noise drops out until it's just the eerie silence of a freezing April night. The player feels the passage of 33 innings in roughly forty-five minutes of real gameplay, not four hours.
+
+The Fever Dream state should feel increasingly surreal as the innings pile up. By the 25th inning, the jump-cuts come faster. The stadium lights flicker. The scoreboard numbers blur. The player isn't sure how many innings they've played. The disorientation is intentional — this is what it feels like to play baseball at 3 AM in April in Rhode Island. The game is making the player as exhausted as the roster.
+
+**Mechanics that activate during the Longest Game:**
+
 - **Player Fatigue:** Stats degrade as innings pile up. By the 20th inning, everyone on the field is operating at 60-70% of their normal ability. Pitchers lose velocity. Hitters lose bat speed. Fielders lose range. The player has to manage a bullpen that ran out of arms ten innings ago and a lineup where nobody has anything left.
-- **Danny Couture Exception:** Danny plays every inning. His stats degrade slower than anyone else's because endurance is his defining trait. By the 30th inning, he might be the only player on the field still performing at a functional level. This is the Moment where the player understands — mechanically, not narratively — why Danny matters.
+- **Danny Couture Exception:** Danny plays every inning. His stats degrade slower than anyone else's because endurance is his defining trait. By the 30th inning, he might be the only player on the field still performing at a functional level. When a min-maxing player watches their superstar struggle at 10% stamina while Danny — the .265 second baseman they almost traded in July — is still operating at 95% efficiency, the narrative clicks mechanically. This is the Moment where the player understands, through the spreadsheet and not the cutscene, why Danny matters.
 - **Crowd Thinning:** The attendance counter visibly drops as the innings pass. By the 15th inning, half the crowd is gone. By the 20th, three-quarters. By the 25th, the stadium is nearly empty. The crowd noise drops accordingly — the ambient sound of the game gets quieter and quieter until individual voices are audible. A drunk guy yelling from section 12. A woman laughing somewhere in the upper deck. A radio playing from the parking lot — the old-timer, listening.
-- **The Fire:** Around the 18th inning, a cutscene or ambient detail: players in the dugout start breaking bats and burning them in a trash can. The benches start getting ripped apart. The stadium is consuming itself to keep the people inside warm. This should be visible in the dugout background for the rest of the game.
+- **Burn the Benches (Forced Choice):** Around the 18th inning, the player's roster is freezing and their stats are plummeting into the red. A prompt appears: **Burn the dugout benches to restore warmth?** If the player says yes, the players get a temporary stamina buff to keep playing — but the franchise's "Stadium Infrastructure" grade takes a permanent hit. The player is literally trading the franchise's physical foundation for on-field survival. This damage carries forward into the Reinvention era, where the state of the Bandbox determines whether renovation is viable or demolition is inevitable. It is the Fall era expressed as a button press: consume the building to save the people inside it.
 - **The Curfew Argument:** Around the 15th inning, the GM (the player) is approached about invoking the curfew. This is a false choice — the curfew rule is missing from the manual. The umpire refuses to stop. The game continues. The player watches their franchise play baseball at 2 AM in front of a hundred people and understands that this is not within their control. The game will end when it ends.
 - **The Suspension:** At 4:07 AM, after the 32nd inning, the league president is reached by phone and orders the game suspended. The final attendance counter reads 19. The player gets a notification: "19 fans remaining. Lifetime passes issued."
 
@@ -102,15 +109,28 @@ After the game is played, it becomes a permanent element of the franchise's cult
 
 The 19 fans who stayed until 4:07 AM received lifetime passes. In the game, these 19 become a micro-community — the "33 Club" or simply "the Nineteen." They are the most hardcore fans in franchise history. They outlasted a 33-inning game in the cold. Nothing the franchise does can ever test their loyalty again because the test has already been passed.
 
+**Thread Connections:**
+
+Two of the Nineteen tie directly into existing compounding threads:
+
+**The Old-Timer's Granddaughter.** She's a teenager in 1981. She came to the game with friends and stayed after they left because something in her — the same stubbornness that put her grandfather in the parking lot with his Bandbox seat — wouldn't let her leave. She earns her own lifetime pass. This is the detail that explains the generational schism in the Reckoning era: the old-timer sits in the parking lot because his loyalty is to the Gus era, to what the franchise was supposed to be. His granddaughter sits inside the stadium because her loyalty is to the franchise's endurance — to the act of staying when everyone else leaves. Same family. Same stubbornness. Two different expressions of it. He's faithful to the memory. She's faithful to the survival. Both are valid. Neither can fully understand the other.
+
+**The Frozen Lemonade Family.** The document notes that one concession stand stayed open through the night, offering free coffee and hot chocolate. That's the frozen lemonade family's cart — pivoting from their signature product to boiling hot coffee because that's what the people who are still here need at 2 AM in April. They don't charge for it. They're not doing business. They're keeping the Nineteen alive. This is the moment that cements their status as franchise royalty for the next fifty years. When the question comes up during the Reinvention era about whether the family keeps their spot at the new park (or the renovated Bandbox), THIS is the answer. They served free coffee at 3 AM during the Longest Game. Their spot is non-negotiable. Anyone who argues otherwise wasn't there.
+
+**Path-Dependent Treatment:**
+
 **High Gus Standard:**
 - The Nineteen are known by the franchise. Their seats are reserved in perpetuity. When one of them dies, the franchise sends flowers and the broadcast voice mentions it during the next home game. Their children inherit the lifetime passes — not officially, but because the franchise recognizes that loyalty like this is generational.
 - During the Reckoning era, if any of the Nineteen are still alive, they're in the stands for the Culminating Moment. They're ninety years old. They've been watching since 4 AM in 1981. The game never ended for them.
+- The old-timer's granddaughter is in section 33. She's been coming to every game since the night she earned that pass. She's the bridge between the parking lot and the interior — the one person who can speak to both the Gus-era loyalty and the endurance-era loyalty because she inherited one and earned the other.
 
 **Medium Gus Standard:**
 - The Nineteen are remembered but the lifetime passes have lapsed through bureaucratic neglect. Some of the original nineteen still come to games. They buy tickets now. They don't complain about it, which makes it worse.
+- The old-timer's granddaughter still comes but she's angry about the pass revocation in a way that her grandfather — who never cared about the pass because he never goes inside — isn't.
 
 **Low Gus Standard:**
 - The Nineteen have been forgotten. The lifetime passes were "reviewed" during a corporate ownership transition and quietly discontinued. If any of the original fans are still alive, they heard about it through a form letter. One of them might be the old-timer in the parking lot — the guy who won't go inside because the franchise that gave him a lifetime pass took it back.
+- The old-timer's granddaughter stopped coming years ago. The franchise broke a promise to her face. She earned that pass at seventeen years old in the cold and the franchise sent her a form letter revoking it. On the low path, she's the one member of the old-timer's family who might never forgive the franchise. Her absence from the Reckoning-era stands is a specific, traceable wound.
 
 ### The "Stay Until the End" Tradition
 
