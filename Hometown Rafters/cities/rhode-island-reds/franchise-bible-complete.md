@@ -687,7 +687,7 @@ A tiny detail. In the clubhouse view, there's always been coffee milk available 
 **The Seventh Inning Salute**
 This is the most visible crowd-based indicator. The Salute happens every home game, but its quality changes.
 
-- High Standard: Full participation. Thirty thousand people rising in unison. The silence before, the synchronicity during, the reverence after. Wieners held high. Coffee milk raised with conviction. The PA announcer calls it with gravitas. Opposing teams visibly unsettled.
+- High Standard: Full participation. Every seat in the building — whether eight thousand in the Bandbox or twenty-five thousand at the Waterfront Park — rising in unison. The silence before, the synchronicity during, the reverence after. Wieners held high. Coffee milk raised with conviction. The PA announcer calls it with gravitas. Opposing teams visibly unsettled. The smaller the venue, the more intimate and more unsettling the effect — eight thousand people in perfect sync in a building where you can hear every voice is more powerful than thirty thousand murmuring in a sprawling park.
 - Medium Standard: Most of the crowd participates, but it's ragged. Some people stand late. Some don't bother. The PA announcer calls it but it sounds rehearsed rather than sacred. Still impressive to outsiders, but locals notice the erosion.
 - Low Standard: Half the crowd does it. The other half is on their phones or in the concourse. The timing is off. A few diehards in the upper deck do it with furious intensity — the worse it gets, the harder the true believers perform it — but the overall effect is diminished. 
 - Critical: The Salute has been "modernized." A corporate sponsor's jingle plays. The PA announcer says something about the sponsor. The crowd's participation is perfunctory. The diehards have stopped coming. The Salute is a brand activation, not a ritual. A tourist might think it's cute. A lifer wants to burn the stadium down.
@@ -1166,7 +1166,7 @@ Danny Couture decided this was his. Not Rhode Island — he'd never claim that. 
 
 ### The Fans
 
-The fans who are still showing up during the Fall — the three thousand in a stadium built for thirty thousand — they see Danny Couture taking ground balls before a meaningless Tuesday game in September and something in them breaks open. Not because he's great. Because he's HERE. He is doing, voluntarily, what they are doing voluntarily: choosing to care about something that the rest of the world has written off.
+The fans who are still showing up during the Fall — the three thousand in a stadium built for ten thousand — they see Danny Couture taking ground balls before a meaningless Tuesday game in September and something in them breaks open. Not because he's great. Because he's HERE. He is doing, voluntarily, what they are doing voluntarily: choosing to care about something that the rest of the world has written off.
 
 He becomes theirs in a way that's different from how Gus or Marcus or Vinnie belonged to the fans. Those guys were stars. Danny is a peer. He's the fan who happens to be wearing the uniform. When he grounds out to shortstop, the three thousand people in the stands feel it the same way they feel their own failures — not with disappointment, but with the grim solidarity of people who know the result doesn't change the effort.
 
@@ -2086,37 +2086,68 @@ The emotional depth of seeing Gus react differently is NOT enough to carry a 35-
 ---
 ---
 
-# PART TEN: OPEN ITEMS & NEXT STEPS
+# PART TEN: COMPLETION STATUS & SUPPLEMENTARY DOCUMENTS
 
-## Characters Still Needed
+## Characters Completed (in supplementary documents)
 
-### The Ownership Lineage (7 Characters)
-1. **The Mill Coalition (1918–1930s)** — The founding factory owners. Paternalistic, budget-conscious, viewing the team as a civic utility.
-2. **The "Businessmen" Saviors (1930s–1940s)** — The group that saves the franchise from Boston. Local heroes with shadow money.
-3. **The Connected Charmer (1950s–1970s)** — The Patriarca-era front. Beloved, charismatic, entirely compromised. Holds court on Atwells Avenue.
-4. **The Indicted Fall Guy (1970s–1990s)** — The owner left holding the bag when the RICO crash hits. Oversees the fire sale and collapse.
-5. **The Cianci-Type Reinventor (1990s–2000s)** — Charismatic politician/businessman who forces the stadium move. Shiny vision built on public money and fragile promises.
-6. **The Modern Grifter (2000s–2010s)** — Corporate owner bringing modern financial fraud, stadium debt, and the final crisis.
-7. **The Grassroots Group (2010s–Present)** — Fans and local investors who take the team back. Low budget, high integrity, zero margin for error.
+### The Ownership Lineage — 7 Characters ✓
+See: `ownership/ownership-lineage.md`
+1. **Elias Ashworth / Mill Coalition (1918–1932)** — Paternalistic mill owner. Subsistence budget.
+2. **Sal "The Saint" Tessitore (1932–1952)** — Warm, generous, the door through which the money enters.
+3. **Nicky "Gem" Gemma (1952–1978)** — Path-dependent charmer. Clean: overenthusiastic jeweler. Corrupt: beloved front man.
+4. **Gerry "Books" DeLuca (1978–1993)** — Accountant patsy (corrupt) or austere caretaker (clean).
+5. **Vinnie "Providence" Moretti (1993–2005)** — Cianci-type reinventor. Stadium move architect. Lame Duck gap mechanic.
+6. **Brad Whitfield IV (2005–2020)** — Greenwich PE guy. Dead Money NTC. Death by neglect.
+7. **Maria Sousa-Chen / Grassroots (2020–Present)** — Community builder. Smallest budget. Must win to survive.
 
-### The Legendary Broadcaster
-- The voice of the franchise across multiple eras.
-- His role in the diegetic system is defined (Part Three) but he needs a name, personality, backstory, and specific career arc.
-- His final broadcast in a half-empty Fall-era stadium should be a Moment.
-- The transition to a new broadcaster in the Reinvention/Reckoning should reflect the franchise's state.
+### The Legendary Broadcaster ✓
+See: `legends/walt-callahan-broadcaster.md`
+- **Walt "Hang It On The Line" Callahan (1954–~1998)** — 44-year tenure. Immune to player control. IS the diegetic UI. Full Rhode Island dialect guide included.
+- Three succession options gated by Gus Standard: Bobby "Sully" Sullivan (high), The Corporate Hire (low), The Bitter Ex-Player (medium).
 
-### The Boston Traitor
-- Thread mechanics are fully defined (Part Three).
-- Needs a name, position, backstory, and specific personality.
-- His departure and return are path-dependent events.
-- His daughter may or may not be in the stands during the Culminating Moment.
+### Named Thread Characters ✓
+See: `systems/structural-fixes-audit.md`
+- **The Nephew:** Tony "Numbers" Pannucci → his son (Head Scout, RICO evidence) → grandson (local politician in stadium deal)
+- **The Sportswriter:** Hal Broadman → Bobby Marchand (frozen out) → Claire Marchand-Reis → digital-native journalist
+- **The Frozen Lemonade Family:** Mechanics defined (Longest Game coffee service, Brad Whitfield vendor replacement). Family name TBD.
 
-### Named Thread Characters
-- **The Nephew** — Needs a name and specific identity.
-- **The Sportswriter** — Needs a name and specific identity.
-- **The Frozen Lemonade Family** — Needs a family name (not Del's for trademark reasons) and specific members across eras.
+### Remaining Character Work
+- **The Boston Traitor:** Thread mechanics defined. Needs a name, position, and specific personality.
+- **The Frozen Lemonade Family:** Needs a family surname.
 
-## Systems Still Needed
+## Systems Completed (in supplementary documents)
+
+### Structural Fixes ✓
+See: `systems/structural-fixes-audit.md`
+- Overlap years at every era transition
+- Mortality lineages (Nephew and Sportswriter become generational threads)
+- Player formalized as Institutional Spirit (no avatar, no name)
+- Stadium ownership structure (city owns land, franchise owns building)
+- Stadium capacity progression (3,000 → 10,000-12,000 Bandbox cap vs. 25,000-30,000 Providence)
+- Bandbox renovation decision tree (four phases)
+
+### Fatal Flaw Fixes ✓
+See: `systems/fatal-flaw-fixes.md`
+- League Administrator mechanic (receivership floor budget)
+- Pipeline Premium + Trusted Partner Network (clean path agency)
+- Clean Slate mechanic (grassroots transition debt forgiveness)
+- Federal Asset Seizure (anti-laundering, fruit of the poisoned tree)
+
+### Final Polish ✓
+See: `systems/final-polish.md`
+- Gus mortality transition (dies 1978-1982, Ghost Mechanic)
+- The Compromise (middle-path Golden Age procedural foil)
+- The Reluctant Farewell (Era 3 clean-path farewell decision tree)
+- The Slow Bleed (limits-path partial RICO, plea deal mechanic)
+
+### The Longest Game ✓
+See: `systems/longest-game.md`
+- 33-inning fixed Moment event with Fever Dream compression
+- Burn the Benches forced choice
+- The Nineteen (lifetime passes, old-timer's granddaughter, frozen lemonade family)
+- "They burned the benches" as cultural vocabulary
+
+## Systems Still Pending (Implementation Phase)
 
 ### The Management Simulation Layer
 - Three-path mechanical divergence (Roots/Ambition/Profit) is blueprinted in Part Nine.
@@ -2128,12 +2159,10 @@ The emotional depth of seeing Gus react differently is NOT enough to carry a 35-
 - Needs exact attribute math, era multipliers, and specific Moment trigger conditions.
 
 ### The Other Seven Cities
-- The Original 8 (including Rhode Island) need six more founding franchises.
-- A second wave of 8 expansion teams.
-- True expansion teams entering later.
+- The Original 8 (including Rhode Island) need seven more founding franchises.
 - Each city needs its own franchise bible at this level of depth.
 
 ## Document Status
-- **Narrative Architecture:** 90% complete for Rhode Island. Missing ownership lineage, broadcaster, and named thread characters.
-- **Mechanical Systems:** 40% complete. Blueprinted but not built.
-- **League Structure:** 10% complete. Rhode Island is the proof of concept. Seven more cities needed.
+- **Narrative Architecture:** Complete. 10 legends, 7 owners, 1 broadcaster with 3 successors, 1 procedural foil, named generational threads. Three independent QA passes. Zero structural breaks.
+- **Mechanical Systems:** Blueprinted and stress-tested. Implementation pending.
+- **League Structure:** Rhode Island is the proof of concept. Seven more cities needed.
