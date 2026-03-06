@@ -30,32 +30,32 @@ The first fully designed franchise. A satire of Providence and Rhode Island — 
 ### Documents
 
 **Complete Reference:**
-- [`franchise-bible-complete.md`](cities/rhode-island-reds/franchise-bible-complete.md) — The original consolidated design document
+- [`franchise-bible-complete.md`](Hometown%20Rafters/cities/rhode-island-reds/franchise-bible-complete.md) — The original consolidated design document
 
 **Legends (10 characters across 7 eras):**
-- [`gus-almeida.md`](cities/rhode-island-reds/legends/gus-almeida.md) — The Foundation. Portuguese-American plumber, shortstop. (1918–1959, all paths)
-- [`golden-age-legends.md`](cities/rhode-island-reds/legends/golden-age-legends.md) — Vinnie Lights, Tommy Pick, Marcus Hall. (1960–1975, path-dependent)
-- [`danny-couture.md`](cities/rhode-island-reds/legends/danny-couture.md) — The One Who Stayed. French-Canadian second baseman from New Hampshire. (1976–1992, all paths)
-- [`late-era-legends.md`](cities/rhode-island-reds/legends/late-era-legends.md) — Elena Martínez, Sam Medeiros, Jimmy Walsh, Jayden Cross. (1993–present, path-dependent)
-- [`mike-duarte.md`](cities/rhode-island-reds/legends/mike-duarte.md) — The Pawtucket Closer. (1993–2008, Pawtucket stay path)
-- [`walt-callahan-broadcaster.md`](cities/rhode-island-reds/legends/walt-callahan-broadcaster.md) — The Voice of the Bandbox. 44-year broadcaster. Includes three succession options and full Rhode Island dialect guide.
-- [`boston-traitor-and-arruda-family.md`](cities/rhode-island-reds/legends/boston-traitor-and-arruda-family.md) — Brendan "B-Mac" McAllister (the local star who leaves for Boston) and the Arruda frozen lemonade family (four generations, 1920s–present).
+- [`gus-almeida.md`](Hometown%20Rafters/cities/rhode-island-reds/legends/gus-almeida.md) — The Foundation. Portuguese-American plumber, shortstop. (1918–1959, all paths)
+- [`golden-age-legends.md`](Hometown%20Rafters/cities/rhode-island-reds/legends/golden-age-legends.md) — Vinnie Lights, Tommy Pick, Marcus Hall. (1960–1975, path-dependent)
+- [`danny-couture.md`](Hometown%20Rafters/cities/rhode-island-reds/legends/danny-couture.md) — The One Who Stayed. French-Canadian second baseman from New Hampshire. (1976–1992, all paths)
+- [`late-era-legends.md`](Hometown%20Rafters/cities/rhode-island-reds/legends/late-era-legends.md) — Elena Martínez, Sam Medeiros, Jimmy Walsh, Jayden Cross. (1993–present, path-dependent)
+- [`mike-duarte.md`](Hometown%20Rafters/cities/rhode-island-reds/legends/mike-duarte.md) — The Pawtucket Closer. (1993–2008, Pawtucket stay path)
+- [`walt-callahan-broadcaster.md`](Hometown%20Rafters/cities/rhode-island-reds/legends/walt-callahan-broadcaster.md) — The Voice of the Bandbox. 44-year broadcaster. Includes three succession options and full Rhode Island dialect guide.
+- [`boston-traitor-and-arruda-family.md`](Hometown%20Rafters/cities/rhode-island-reds/legends/boston-traitor-and-arruda-family.md) — Brendan "B-Mac" McAllister (the local star who leaves for Boston) and the Arruda frozen lemonade family (four generations, 1920s–present).
 
 **Ownership Lineage (7 owners across 7 eras):**
-- [`ownership-lineage.md`](cities/rhode-island-reds/ownership/ownership-lineage.md) — From mill coalition to grassroots group. Each owner carries a specific mechanic that shapes the player's constraints.
+- [`ownership-lineage.md`](Hometown%20Rafters/cities/rhode-island-reds/ownership/ownership-lineage.md) — From mill coalition to grassroots group. Each owner carries a specific mechanic that shapes the player's constraints.
 
 **Systems:**
-- [`choice-tree.md`](cities/rhode-island-reds/systems/choice-tree.md) — The Gus Almeida eras branching tree (1918–1959)
-- [`era-map-championships.md`](cities/rhode-island-reds/systems/era-map-championships.md) — Full seven-era map with championship windows and compounding threads
-- [`diegetic-standard-corruption.md`](cities/rhode-island-reds/systems/diegetic-standard-corruption.md) — Environmental indicator system, corruption tax, Boston Traitor thread
-- [`longest-game.md`](cities/rhode-island-reds/systems/longest-game.md) — The 33-inning game as fixed Moment event, Fever Dream compression, franchise identity element
-- [`structural-fixes-audit.md`](cities/rhode-island-reds/systems/structural-fixes-audit.md) — Overlap years, mortality lineages, player identity, stadium ownership & capacity, Bandbox renovation tree
-- [`fatal-flaw-fixes.md`](cities/rhode-island-reds/systems/fatal-flaw-fixes.md) — League Administrator, Pipeline Premium, Clean Slate, Federal Asset Seizure (anti-laundering)
-- [`final-polish.md`](cities/rhode-island-reds/systems/final-polish.md) — Gus mortality transition, middle-path Golden Age foil, Reluctant Farewell, Slow Bleed partial RICO
-- [`simulation-layer-notes.md`](cities/rhode-island-reds/systems/simulation-layer-notes.md) — Mechanical blueprints for future development
+- [`choice-tree.md`](Hometown%20Rafters/cities/rhode-island-reds/systems/choice-tree.md) — The Gus Almeida eras branching tree (1918–1959)
+- [`era-map-championships.md`](Hometown%20Rafters/cities/rhode-island-reds/systems/era-map-championships.md) — Full seven-era map with championship windows and compounding threads
+- [`diegetic-standard-corruption.md`](Hometown%20Rafters/cities/rhode-island-reds/systems/diegetic-standard-corruption.md) — Environmental indicator system, corruption tax, Boston Traitor thread
+- [`longest-game.md`](Hometown%20Rafters/cities/rhode-island-reds/systems/longest-game.md) — The 33-inning game as fixed Moment event, Fever Dream compression, franchise identity element
+- [`structural-fixes-audit.md`](Hometown%20Rafters/cities/rhode-island-reds/systems/structural-fixes-audit.md) — Overlap years, mortality lineages, player identity, stadium ownership & capacity, Bandbox renovation tree
+- [`fatal-flaw-fixes.md`](Hometown%20Rafters/cities/rhode-island-reds/systems/fatal-flaw-fixes.md) — League Administrator, Pipeline Premium, Clean Slate, Federal Asset Seizure (anti-laundering)
+- [`final-polish.md`](Hometown%20Rafters/cities/rhode-island-reds/systems/final-polish.md) — Gus mortality transition, middle-path Golden Age foil, Reluctant Farewell, Slow Bleed partial RICO
+- [`simulation-layer-notes.md`](Hometown%20Rafters/cities/rhode-island-reds/systems/simulation-layer-notes.md) — Mechanical blueprints for future development
 
 **Research:**
-- [`historical-reference.md`](cities/rhode-island-reds/research/historical-reference.md) — Real Rhode Island history anchoring the fiction
+- [`historical-reference.md`](Hometown%20Rafters/cities/rhode-island-reds/research/historical-reference.md) — Real Rhode Island history anchoring the fiction
 
 ---
 
@@ -148,7 +148,7 @@ The Bandbox caps at 10,000-12,000 seats. Providence Waterfront Park holds 25,000
 - **Core Mechanic:** "The Right Way" — a visible compliance metric that inverts the hidden Gus Standard. Measures institutional obedience, not soul.
 - **Founding Character:** Heinrich "Hank" Keller — German cooper/catcher from Dutchtown. Gemütlichkeit warmth corrupted into corporate compliance.
 - **Three Paths:** Orthodoxy (compliance) / Pragmatism (balance) / Heresy (rebellion)
-- **Research:** [Historical Reference](cities/st-louis/research/historical-reference.md) — 16 threads across immigration, the Great Divorce, Delmar Divide, Gashouse Gang, Gibson/Flood, Anheuser-Busch, population collapse, Chicago rivalry, and more.
+- **Research:** [Historical Reference](Hometown%20Rafters/cities/st-louis/research/historical-reference.md) — 16 threads across immigration, the Great Divorce, Delmar Divide, Gashouse Gang, Gibson/Flood, Anheuser-Busch, population collapse, Chicago rivalry, and more.
 
 ### League Structure
 - **Original 8 Cities:** Rhode Island (complete) and St. Louis (in progress). Six more founding franchises needed.
