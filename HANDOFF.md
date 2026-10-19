@@ -12,6 +12,9 @@
 - **Root cause of the drift:** the bible embeds 97–100% verbatim copies of 9 subsystem docs. The 7 newer fix docs (structural-fixes-audit, fatal-flaw-fixes, longest-game, ownership-lineage, walt-callahan-broadcaster, boston-traitor-and-arruda-family, gus-almeida) were never merged back. Fixing the duplication first means every later fix happens once instead of twice.
 - **Docs-only repo:** Fable writes directly. No Codex.
 
+## UPDATE (10/19, later): game design approved and written
+The brainstorm finished. The approved design is `docs/superpowers/specs/2026-10-19-era1-playable-slice-design.md` (commit f6af4d7). It covers an Era 1 (1918–1930) slice with OOTP-style management, the hidden Gus Standard, a TypeScript/React stack and milestones M1–M5. Fable builds it directly, with no Codex. Next: Alex reviews the spec, then the M1 implementation plan (writing-plans). The section below is the earlier state, kept for history.
+
 ## NEW DIRECTION (10/19, after the review): Alex wants to turn this into a playable game
 This replaces the doc-cleanup order below as the main goal. Start the next chat with the brainstorming skill.
 
