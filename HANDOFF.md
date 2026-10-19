@@ -13,6 +13,8 @@
 - **Docs-only repo:** Fable writes directly. No Codex.
 
 ## UPDATE (10/19, later): game design approved and written
+
+M1 (baseball core) is built in `D:\CodexWorkspaces\hometown-rafters-game` (private GitHub repo walshja9/hometown-rafters-game): 59 tests green, calibrated to 1918–1930 league rates (table in its README, with the M2 carry-overs). Next: the M2 plan.
 The brainstorm finished. The approved design is `docs/superpowers/specs/2026-10-19-era1-playable-slice-design.md` (commit f6af4d7). It covers an Era 1 (1918–1930) slice with OOTP-style management, the hidden Gus Standard, a TypeScript/React stack and milestones M1–M5. Fable builds it directly, with no Codex. Next: Alex reviews the spec, then the M1 implementation plan (writing-plans). The section below is the earlier state, kept for history.
 
 ## NEW DIRECTION (10/19, after the review): Alex wants to turn this into a playable game

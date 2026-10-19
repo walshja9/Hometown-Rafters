@@ -2557,7 +2557,8 @@ export function App() {
       ))}
     </main>
   );
-}eam.
+}
+```
 
 - [ ] **Step 3: Styles and stylesheet import**
 
