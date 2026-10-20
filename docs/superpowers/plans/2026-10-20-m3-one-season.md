@@ -219,7 +219,7 @@ options:
 Body prose, Markdown, one to three paragraphs.
 ```
 
-`content/readouts.yaml`: a list of `Readout`. Every `place` needs one entry with no `when` and no `years` (the fallback). `content/letters.yaml`: `{ year: number, support: number, text: string }[]` with `{cash}`, `{net}`, `{support}` placeholders and a `tone` per entry (`'even' | 'warm' | 'cold'`) chosen by last year's net (≥ 0 even/warm; < −1000 cold). `content/story-games.yaml`: `{ opening: { title, text }, decider: { title, text }, closing: { title, text } }`. `content/moments/elimination.md`: frontmatter `MomentSpec` minus `setup`, the body is `setup`.
+`content/readouts.yaml`: a list of `Readout`. Every `place` needs one entry with no `when` and no `years` (the fallback). `when.flag` and `when.not_flag` take a string or a list of strings (each counts as one condition for specificity). `*_above: n` holds when the value ≥ n, `*_below: n` when the value < n. `content/letters.yaml`: `{ year: number, support: number, text?: { even: string; warm: string; cold: string } }[]` plus a top-level `fallback: { even, warm, cold }` used by years without `text`; placeholders `{cash}`, `{net}`, `{support}`; the tone comes from `letter(L)` (Task 3). `content/story-games.yaml`: `{ opening: { title, text }, decider: { title, text }, closing: { title, text } }`. `content/moments/elimination.md`: frontmatter `MomentSpec` minus `setup`, the body is `setup`.
 
 ---
 
