@@ -1,6 +1,28 @@
-# Handoff: Hometown Rafters (2026-10-20)
+# Handoff: Hometown Rafters (2026-10-21)
 
-## Latest: M2 (league) BUILT and pushed
+## Latest: M3 (one season as a franchise) BUILT, reviewed and pushed; awaiting Alex's click-through
+- Game repo `D:\CodexWorkspaces\hometown-rafters-game` main at 36e1d56, 396 tests green, build clean. Built by Codex (one dispatch per task, write-capable, cwd = the repo) with Fable reviewing and committing each task; Alex lifted the "no Codex" rule on 10/20 ("loop in a codex agent"). Codex's sandbox cannot write `.git` or spawn Vite's default loader, so it verifies with `npm test -- --configLoader native --pool threads` and `npm run build -- --configLoader native`, and the reviewer commits. Ledger and reports: `docs/m3-build/` in the game repo.
+- What M3 is: the season as a franchise. Winter office (the Coalition's letter, contracts, ticket price, repairs, loans, the winter card), Opening Day card, three season blocks with a card at each boundary, two story games (Opening Day; the pennant decider or the last home game), an elimination Moment (Gus, inning 7+, tying run on, a loss ends the race) played pitch by pitch with a count-aware read model, the fall books with loans and foreclosure, the ballpark walk (gate, concession spot, Gus), then the next winter. Hidden values move only through choices and policies and are read back only as prose. Content: 13 cards, 30 readouts, one Moment, letters 1918-1930, three story-game texts under `content/`, checked at test time.
+- Plan: `docs/superpowers/plans/2026-10-20-m3-one-season.md` with "Execution notes" (every plan correction found in the build, including the Moment calibration rewrite and the probe fix wave).
+- Final review: Codex adversarial review of the whole branch (`docs/m3-build/final-review.md`): 7 findings, all fixed (unpaid post-winter acquisitions; card money missing from the books; a Moment invalidated by AI results recorded after the pause; a failed favorite sale still applying penalties; trust never moving; readout ties hiding causes; the yearly Ashworth loan).
+
+## Decisions made during the build (and why)
+- Sunday ball: no legalization date is sourced, so until the `sunday_ball` flag is won (the hearing card) the Reds' Sunday home dates are played at Rocky Point (1.6x draw, 40% to the resort), as Providence really did for 22 years. No year appears in any card.
+- Economy at 1918 scale lands near break-even by design (spec section 8): headless 1918-1919 nets about -$1,700 to +$5,500 a year at 1,400-1,650 a game. Constants in `src/franchise/economy.ts`; M4's bots retune them.
+- Gus's trust starts at 65 and the tiers are 60/50/40/25 (work / quiet / "oh meu deus" / "cabeca de mula" / "ah que porra"), so the baseline reads warm; trust moves through promises (the Sunday petition is a community promise kept by the hearing) and exploitation (cutting the men's pay).
+- Within a readout place the causal (flag) entries precede the band entries, because a tie on specificity goes to file order and causes must beat bands.
+- The Moment's pitch model is calibrated with oracle read policies (a typical 70/30 read within 0.06 on-base and 0.05 K of the engine; a perfect read gains at most 0.10; always swing or always take lose). The plan's coin-flip policy was unsatisfiable and was replaced.
+- Holdouts are not in M3: a cut deeper than 20% is refused, never held out.
+
+## Open threads / next steps
+1. **Alex: browser click-through of M3** (`npm run dev` in the game repo). Check: the winter office (letter, sign a contract, cut a local man, set a price, fund a repair, borrow), the winter card, Open the season, the opening card, Play ball, the Opening Day story game (Manage one, Sim the other year), Sim to the next event through the block cards, a card you cannot afford shows its reason, the fall books, the walk reads differently after different choices, 1919's letter changes tone with the result, and a Moment if one fires (late game, Gus up, race alive). Reload mid-card and mid-Moment.
+2. **Alex: name the six placeholder clubs** in `src/league/cities.ts`.
+3. **M4 plan** (three seasons 1918-1920 with the 1920 shift; the strategy bots over 1918-1930 with placeholder content; the 1929-30 money stress test; go/no-go gate). Carry-overs for M4 in priority order: holdouts; rest days between starts (the K leader problem); position-specific defense and the out-of-position penalty; prices revealing hidden potential (value() blends potential under 27); AI clubs' own books (they get a flat net by tier); other cities' Sunday laws; the winter deck is thin after 1920 (three winter cards, all one-time); the three verdicts and the last walk of 1930 (M5); the empty `clubhouse`/`bleachers` readout places; W/L decisions, injuries, double switches, hit-and-run, file export.
+4. Memory: `project_hometown_rafters.md`.
+
+## Previous: M2 (league) BUILT and pushed (2026-10-20)
+
+## M2 (league) BUILT and pushed
 - Game repo `D:\CodexWorkspaces\hometown-rafters-game` (private, github walshja9/hometown-rafters-game), main at 9748994, 114 tests green, build clean. 24 commits on top of M1's 31c5e4b. Built by opus subagents (Alex's call) with a task-gate review per batch and a final whole-branch review; the run ledger is in the game repo at `.git/sdd/progress.md`.
 - What M2 is: eight generated clubs, 154-game schedule with dates, day-by-day season, standings/stats/leaders, trades/sales/purchases through one valuation with a 15% spread, pool of independent clubs, offseason development/retirement/rollover, save v2 (whole league, with an in-app "Start a new league" boundary for a broken save), League/Clubs/Deals/Game screens; the Reds' games play one side on the diamond, the AI manager runs the other.
 - Plan bugs found in execution are corrected in the plan master copy (`docs/superpowers/plans/2026-10-19-m2-league.md`, "Execution notes" at the end).
