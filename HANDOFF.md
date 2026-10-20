@@ -1,4 +1,22 @@
-# Handoff: Hometown Rafters (2026-10-19, late)
+# Handoff: Hometown Rafters (2026-10-20)
+
+## Latest: M2 (league) BUILT and pushed
+- Game repo `D:\CodexWorkspaces\hometown-rafters-game` (private, github walshja9/hometown-rafters-game), main at 9748994, 114 tests green, build clean. 24 commits on top of M1's 31c5e4b. Built by opus subagents (Alex's call) with a task-gate review per batch and a final whole-branch review; the run ledger is in the game repo at `.git/sdd/progress.md`.
+- What M2 is: eight generated clubs, 154-game schedule with dates, day-by-day season, standings/stats/leaders, trades/sales/purchases through one valuation with a 15% spread, pool of independent clubs, offseason development/retirement/rollover, save v2 (whole league, with an in-app "Start a new league" boundary for a broken save), League/Clubs/Deals/Game screens; the Reds' games play one side on the diamond, the AI manager runs the other.
+- Plan bugs found in execution are corrected in the plan master copy (`docs/superpowers/plans/2026-10-19-m2-league.md`, "Execution notes" at the end).
+
+## Decisions made during the build (and why)
+- Per-pitch **Take is hidden** on the Game page: the chain model's per-pitch odds ignore the count, so taking until two strikes roughly doubled scoring (measured 9.6 vs 4.0 R/G in 1918). The engine keeps the action for Moments, which need a count-aware model first (M3).
+- The user's club is refilled each offseason only to its **pre-retirement size** (legality first). Refilling to 25 opened a sell-and-refill money loop (+30–40 wins); refilling only to legality starved the Reds to 13 men by 1926. M3's budget and Roots signing replace this rule.
+- `rotationStale` is one shared rule (game day and offseason); the Club page swaps rotation slots so one ace cannot start every game.
+- AI manager bug fixed: it pinch-hit for its own pinch hitter in the P slot (172 → 62 PH subs per 40 games). Calibration still passes.
+
+## Open threads / next steps
+1. **Alex: browser click-through of M2** (`npm run dev` in the game repo). No Chrome extension was available, so only SSR smoke tests and logic probes ran. Check: standings; Play next game → diamond, one side; "Pitch to him" advances a plate appearance when fielding; Back to the league closes the day; Clubs lineup/rotation editors; Deals refuses a fleece with a reason; reload keeps state.
+2. **Alex: name the six placeholder clubs** in `src/league/cities.ts` (Boston Harbormen, Buffalo Lakers, Pittsburgh Forgemen, Cleveland Lakeshores, Cincinnati Flying Pigs, Baltimore Canners) before M3 content.
+3. **M3 plan** (one complete 1918: budget letter, roster moves, cards, two story games, a Moment, settlement, ballpark walk). Carry-overs that M3 must take on, in priority order: the spec's "buyer must need the player" check on sales (money exploit once income exists); Sunday home dates are very uneven per club (schedule flip keyed to ring slot) and must be balanced before gate money; a multi-season calibration test (AI rosters drift ~5 rating points down by 1930; R/G ran −9 to −16% in some seeds by the mid-1920s); count-aware pitching for Moments; rest days between starts (today the best reliever can start the next day); prices reveal hidden potential (value() blends potential for under-27s). Full minor list: the game repo ledger and README carry-overs.
+4. Memory: `project_hometown_rafters.md`.
+
 
 ## Latest (M1 reviewed, M2 planned)
 - **M1 review (game repo `D:\CodexWorkspaces\hometown-rafters-game`, 59 tests green):** accepted. Three fixes carried into the M2 plan as Tasks 1–2: "take" walked 96.5% of plate appearances (zone conversion fix), a shapeless v1 save blanked the app (load falls back), and a corrupt save could be rotated over a good one.
