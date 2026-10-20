@@ -4,7 +4,7 @@
 - **M1 review (game repo `D:\CodexWorkspaces\hometown-rafters-game`, 59 tests green):** accepted. Three fixes carried into the M2 plan as Tasks 1–2: "take" walked 96.5% of plate appearances (zone conversion fix), a shapeless v1 save blanked the app (load falls back), and a corrupt save could be rotated over a good one.
 - **M2 plan written:** `docs/superpowers/plans/2026-10-19-m2-league.md` (14 tasks, full code). Eight generated clubs, 154-game schedule, standings/stats/leaders, transactions through one valuation with a 15% spread, independent-club pool, offseason development and retirement, save v2, League/Club/Deals/Game screens. Deferred list at the top of the plan.
 - **Decision pending for Alex:** six of the eight founding clubs are placeholders in the plan's `src/league/cities.ts` (Boston Harbormen, Buffalo Lakers, Pittsburgh Forgemen, Cleveland Lakeshores, Cincinnati Flying Pigs, Baltimore Canners). Rename before M3 content.
-- **Next:** execute the M2 plan (Fable builds directly, no Codex), then the M3 plan (one complete 1918).
+- **Next:** Alex picks the execution mode (subagent-driven with Sonnet subagents per task, or inline as M1 was built), then execute the M2 plan (Fable builds directly, no Codex; subagents pass model sonnet), then the M3 plan (one complete 1918). Plan tasks are checkboxes; tick them as they land.
 
 
 ## Current state
