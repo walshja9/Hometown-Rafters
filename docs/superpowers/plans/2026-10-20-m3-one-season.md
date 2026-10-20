@@ -399,4 +399,15 @@ Readouts: `gate`, `concession`, `gus` with a fallback, one per band, and causal 
 
 ## Execution notes
 
-(Filled in during the build: plan bugs found in execution and how they were corrected.)
+Built 10/20–21 with Codex (GPT-5.5) as the implementer, one dispatch per task, Fable reviewing and committing (Codex's sandbox cannot write `.git` or spawn Vite's default config loader; it verifies with `npm test -- --configLoader native --pool threads` and `npm run build -- --configLoader native`). Plan corrections found in execution:
+
+- Task 1: `genPlayer` (generate.ts) must set `salary`; `emptyBooks()` lives in economy.ts; autoLineup can seat Gus at catcher, so `newLeague` swaps him to short afterwards. The displaced generated shortstop joins the pool (25 men, not 24).
+- Task 2: `Books.gate` is booked gross with `visitorsShare` and `resortCut` as expense lines (the plan's "net" wording). A rescue loan taken at settlement amortizes over the remaining falls. The literal "most Sunday homes vs fewest" swap stalls in 1918; swaps pass through intermediate clubs.
+- Task 3: `sellPlayer` gained `emergency` (foreclosure sales bypass the need and cheapskate rules) and later `atAsk` (the `sell_favorite` effect sells at ask). A local pay cut is marked once a year in `story.flags` as `salary-cut:<year>:<id>`.
+- Task 4: `leadingPath(h, last)` takes the tie-breaker as an argument.
+- Task 5: `letters.yaml` is a mapping `{ years: [...], fallback: {...} }` (a root sequence followed by a root mapping is not valid YAML). A card that another card follows up to is a consequence: it is dealt only when due, never drawn by weight. `Readout.when.flag` / `not_flag` take a string or a list.
+- Task 6: the first winter card is dealt by the caller (`App.fresh()`), later winters by `toWinter`. `offseason()` refuses to run after 1930, so `toWinter` in 1930 only sets `over`. Story-game offers are recorded as `story.flags` `decider_<year>_<day>` / `closing_<year>_<day>`; a lost decider sets `lost_race_<year>`. Sim day/week loops must stop when `playDay` returns without advancing the day.
+- Task 7: the plan's calibration (a coin-flip take/swing policy within ±0.06 of the engine) is unsatisfiable because taking half the strikes must raise strikeouts. Replaced by oracle read policies: a typical 70/30 read within ±0.06 on-base and ±0.05 K of the engine, a perfect read at most +0.10, always swing with K ≥ half the engine's, always take and always swing never above engine +0.04; plus model constraints (out-of-zone whiff ≥ 0.35, in-play ≤ 0.45, weak contact shifts 25% of in-play mass to GO/FO). `momentPitch(L, s, read, zone?)` exposes the zone draw. The trigger seam is `src/franchise/momentTrigger.ts`.
+- Task 8: condition semantics `*_above` = ≥, `*_below` = <; ties on specificity go to file order, so causal (flag) entries precede band entries within a place.
+- Task 9: the card result receipt is React state, not saved.
+- Task 10 probe (two seasons under three card policies) found the walk identical across policies and Gus "gone quiet" at the start: Gus tiers became 60/50/40/25 (trust 65 is the warm baseline), readouts were reordered, cutting pay became `exploit`, and the Sunday petition became a community `promise` kept by the hearing. Economy at 1918 scale lands near break-even (net −$1,700 to +$5,500 a year, 1,400–1,650 a game).
