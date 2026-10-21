@@ -378,3 +378,15 @@ Codex half: `npm test` green including `tests/bots`; `docs/m5a-build/bots-report
 (Filled in during the build: every plan correction, in the order found.)
 
 1. **Planning:** spec §4.6 named an `affiliate` franchise field; the plan uses the flag `affiliated` instead (no new state beyond `demandMod`). Spec §2.1's `demand` is Reds-only in `attendanceFor` (every card describes the Reds' gate). The 1929 sale's note uses a new `borrow` effect because `borrow()` is winter-only and effect-driven loans did not exist.
+
+## Execution notes (10/22)
+
+1. `affiliated` is a flag, not a `Franchise.affiliate` field; `demand` is Reds-only; `borrow` was added as a card effect over the existing winter loan.
+2. `the-strike` is the 1922 spine card (re-windowed, fixed, followup `going-south`); there is no `the-strike-year`. Its flags are `strike_gate` / `strike_ashworth`, and the retrospective keys on those.
+3. `going-south`, `the-boston-return` and `the-line` are `fixed: true` followup targets so a chain fires when due even if a flag is missed.
+4. 1930 never enters `L.history`; `finalRecords` appends the live row from `standings(L)`.
+5. The retrospective names only current-roster men with five or more seasons on file (archives carry ratings, not club membership).
+6. `last_walk` is allow-listed in the checker beside `pennant_last`.
+7. Coverage: the 1922 winter pool with `sunday_ball` set was three cards; `russo-uniforms` now opens in 1922. Every other year/slot had four or more.
+8. Bots: Codex spent the three tuning passes on `DEMAND_GROWTH` (0.065, 0.055, 0.0625), which does not move pennants; all reverted to 0.06. Baseline is green except borrower/m4-b at 6 Reds pennants (M4: 5). Open for Alex: accept as drift or give M5b a pennant knob.
+9. Task 2's first Codex run paused on a design question (sold pitcher in the rotation; fixed-price ledger); the second run applied both. A sold pitcher's rotation slot is rebuilt by the engine before the next game.
